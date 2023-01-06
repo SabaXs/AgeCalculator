@@ -33,7 +33,7 @@ date.max = new Date().toISOString().split('T')[0];
         result.innerHTML = `<p class="birthdate">You were born on ${birthDate.toDateString()}.</p>`;
         result.innerHTML += `<p class="age">You are ${years} years, ${months} months and ${days} days old.</p>`;
         if (months == 0 && days == 0) {
-            result.innerHTML += `<p class="wishing">Happy Birthday To You!🎂🎈🎈</p>`;
+            result.innerHTML += `<p class="wishing">Happy Birthday To You!</p>`;
         }
         }
         calculate.addEventListener('click', calculateAge);
